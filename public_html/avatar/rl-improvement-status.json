@@ -1,0 +1,122 @@
+{
+  "ok": true,
+  "active": true,
+  "running": true,
+  "mode": "avatar-visual-optimizer",
+  "cycle": 147,
+  "updated_at": "2026-05-22T11:07:28+00:00",
+  "current_asset_version": "20260522-130728",
+  "presenters": {
+    "rl-best": {
+      "source": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\presenters\\rl-best-source.png",
+      "output": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\presenters\\rl-best-stage.png",
+      "best": {
+        "score": 76.59,
+        "scores": {
+          "score": 76.59,
+          "face": 82.11,
+          "body": 82.7,
+          "hair": 82.56,
+          "motion": 65.41,
+          "lighting": 72.97,
+          "artifacts": 12.43
+        },
+        "variant": {
+          "zoom": 1.0348759671159844,
+          "x_center": 0.5258819451515675,
+          "y_center": 0.4941018831422377,
+          "bg_blur": 17.94193744750312,
+          "bg_lift": 0.7669612380042049,
+          "subject_mix": 0.8458507536268,
+          "key_x": 0.5176017883464682,
+          "key_y": 0.3525740631130597,
+          "key_strength": 0.10762669492431834,
+          "vignette": 0.14830781156605066,
+          "warmth": 0.04324171268646411,
+          "lift": 1.021447481920088,
+          "contrast": 1.0871554112802062,
+          "sharpness": 1.1050723012405785,
+          "motion_blur": 2,
+          "motion_alpha": 0.18736473493791583,
+          "motion_dir": "horizontal"
+        },
+        "path": "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL\\visual_optimizer\\cycle-00147\\rl-best-11.png",
+        "index": 11
+      },
+      "baseline": {
+        "score": 72.98,
+        "scores": {
+          "score": 72.98,
+          "face": 76.92,
+          "body": 77.86,
+          "hair": 78.29,
+          "motion": 70.56,
+          "lighting": 70.72,
+          "artifacts": 14.83
+        },
+        "variant": {
+          "source": "rl_best_source",
+          "published_if_no_candidate_beats_baseline": true
+        },
+        "path": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\presenters\\rl-best-source.png",
+        "index": -1
+      },
+      "candidate_best": {
+        "score": 76.59,
+        "scores": {
+          "score": 76.59,
+          "face": 82.11,
+          "body": 82.7,
+          "hair": 82.56,
+          "motion": 65.41,
+          "lighting": 72.97,
+          "artifacts": 12.43
+        },
+        "variant": {
+          "zoom": 1.0348759671159844,
+          "x_center": 0.5258819451515675,
+          "y_center": 0.4941018831422377,
+          "bg_blur": 17.94193744750312,
+          "bg_lift": 0.7669612380042049,
+          "subject_mix": 0.8458507536268,
+          "key_x": 0.5176017883464682,
+          "key_y": 0.3525740631130597,
+          "key_strength": 0.10762669492431834,
+          "vignette": 0.14830781156605066,
+          "warmth": 0.04324171268646411,
+          "lift": 1.021447481920088,
+          "contrast": 1.0871554112802062,
+          "sharpness": 1.1050723012405785,
+          "motion_blur": 2,
+          "motion_alpha": 0.18736473493791583,
+          "motion_dir": "horizontal"
+        },
+        "path": "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL\\visual_optimizer\\cycle-00147\\rl-best-11.png",
+        "index": 11
+      },
+      "candidate_count": 16,
+      "publish_min_delta": 3.0,
+      "published": true,
+      "published_candidate": true,
+      "learning": "visible_rl_best_mutation_loop"
+    }
+  },
+  "stop_file": "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL\\avatar_visual_optimizer.stop",
+  "scorer": {
+    "ok": true,
+    "device": "cuda",
+    "checkpoint": "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL\\local_gpu_reward_model.pt"
+  },
+  "deploy_assets": [
+    {
+      "ok": false,
+      "skipped": "HM_ADMIN_OP_PASSWORD is not set",
+      "remote": "public_html/avatar/presenters/rl-best-stage.png"
+    },
+    {
+      "ok": false,
+      "skipped": "HM_ADMIN_OP_PASSWORD is not set",
+      "remote": "public_html/avatar/presenters/rl-best-thumb.png"
+    }
+  ]
+}

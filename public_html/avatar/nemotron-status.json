@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "running": true,
+  "active": true,
+  "mode": "nemotron-supervisor",
+  "pid": 25448,
+  "cycle": 334,
+  "loop_count": 334,
+  "samples_seen": 334,
+  "started_at": "2026-05-18T06:53:01+00:00",
+  "updated_at": "2026-05-18T06:54:05+00:00",
+  "last_tick": "2026-05-18T06:54:05+00:00",
+  "last_nemotron_label_time": "2026-05-18T06:54:05+00:00",
+  "interval_seconds": 20.0,
+  "model": "nvidia/nemotron-3-nano-omni",
+  "endpoint": "http://100.106.75.76:1234/v1/chat/completions",
+  "fallback_endpoint": "http://127.0.0.1:8766/v1/chat/completions",
+  "active_endpoint": "http://100.106.75.76:1234/v1/chat/completions",
+  "rl_root": "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL",
+  "local_status": "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL\\nemotron_supervisor_status.json",
+  "public_status": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\nemotron-status.json",
+  "events_jsonl": "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL\\nemotron_supervisor_events.jsonl",
+  "stop_file": "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL\\nemotron_supervisor.stop",
+  "latest_frame": {
+    "path": "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL\\visual_optimizer\\cycle-00092\\rl-best-15.png",
+    "name": "rl-best-15.png",
+    "mtime": "2026-05-18T06:51:20+00:00",
+    "size_bytes": 272474,
+    "attached": true
+  },
+  "context_files": [
+    {
+      "name": "continuous_browser_rl_status.json",
+      "mtime": "2026-05-18T06:52:37+00:00",
+      "size_bytes": 3534
+    },
+    {
+      "name": "nt_workload_pump_status.json",
+      "mtime": "2026-05-18T06:52:37+00:00",
+      "size_bytes": 3489
+    },
+    {
+      "name": "local_gpu_reward_model_status.json",
+      "mtime": "2026-05-18T06:52:34+00:00",
+      "size_bytes": 1778
+    },
+    {
+      "name": "gibberlink_multiconnect_status.json",
+      "mtime": "2026-05-18T06:52:25+00:00",
+      "size_bytes": 4212
+    },
+    {
+      "name": "avatar_visual_optimizer_status.json",
+      "mtime": "2026-05-18T06:51:24+00:00",
+      "size_bytes": 7042
+    },
+    {
+      "name": "render_request.json",
+      "mtime": "2026-05-17T11:16:18+00:00",
+      "size_bytes": 386
+    },
+    {
+      "name": "rl-history.json",
+      "mtime": "2026-05-17T11:15:51+00:00",
+      "size_bytes": 18265
+    },
+    {
+      "name": "latest_summary.json",
+      "mtime": "2026-05-17T11:15:51+00:00",
+      "size_bytes": 1338
+    },
+    {
+      "name": "swimsuit_fit_report.json",
+      "mtime": "2026-05-17T11:09:23+00:00",
+      "size_bytes": 3970
+    },
+    {
+      "name": "continuous_unreal_rl_state.json",
+      "mtime": "2026-05-17T09:33:18+00:00",
+      "size_bytes": 262
+    }
+  ],
+  "cuda_available": true,
+  "gpu": {
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_utilization_pct": "0",
+    "gpu_memory_used_mib": "2632",
+    "gpu_memory_total_mib": "6144"
+  },
+  "feedback": "Browser RL running with high movement realism but frozen motion; workload pump active with network errors in lanes 1 and 2 causing backlog. Next: Investigate and resolve network connectivity errors in lanes 1 and 2",
+  "lessons": [
+    "Running browser RL mode with camera fixed",
+    "Movement realism 90 but motion_delta 16.45 indicating possible freeze",
+    "Cutout artifact noted on right side",
+    "Workload pump active, lane 1 and 2 show URLError connection failures",
+    "Only one lane connected out of four"
+  ],
+  "next_action": "Investigate and resolve network connectivity errors in lanes 1 and 2",
+  "nemotron": {
+    "ok": true,
+    "endpoint": "http://100.106.75.76:1234/v1/chat/completions",
+    "variant": "text_json_prompt",
+    "latency_seconds": 64.072,
+    "parsed": {
+      "ok": true,
+      "summary": "Browser RL running with high movement realism but frozen motion; workload pump active with network errors in lanes 1 and 2 causing backlog.",
+      "priority": "watch",
+      "observations": [
+        "Running browser RL mode with camera fixed",
+        "Movement realism 90 but motion_delta 16.45 indicating possible freeze",
+        "Cutout artifact noted on right side",
+        "Workload pump active, lane 1 and 2 show URLError connection failures",
+        "Only one lane connected out of four"
+      ],
+      "next_action": "Investigate and resolve network connectivity errors in lanes 1 and 2",
+      "risk": "Network connection failures may stall backlog tasks and reduce frame throughput",
+      "stale_inputs": []
+    },
+    "parsed_ok": true,
+    "usage": {
+      "prompt_tokens": 2297,
+      "completion_tokens": 617,
+      "total_tokens": 2914,
+      "completion_tokens_details": {
+        "reasoning_tokens": 441
+      }
+    },
+    "reasoning_content_present": true
+  },
+  "deploy": {
+    "requested": true,
+    "ok": null
+  }
+}

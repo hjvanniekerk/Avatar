@@ -1,0 +1,61 @@
+{
+  "asset": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits",
+  "exports": [
+    {
+      "lod": 0,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-lod0.glb",
+      "bytes": 1328508,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000022E5D6E0EA0) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 1,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-lod1.glb",
+      "bytes": 1328508,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000022E5D6E0E40) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 2,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-lod2.glb",
+      "bytes": 1328508,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000022E5D6E0870) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 3,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-lod3.glb",
+      "bytes": 1328508,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000022E5D6E0870) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 4,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-lod4.glb",
+      "bytes": 1328508,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000022E5D6E0F00) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 5,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-lod5.glb",
+      "bytes": 1328508,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000022E5D6E09F0) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 6,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-lod6.glb",
+      "bytes": 1328508,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000022E5D6E0480) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 7,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-lod7.glb",
+      "bytes": 1328508,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000022E5D6E09F0) {suggestions: , warnings: , errors: }>"
+    }
+  ]
+}

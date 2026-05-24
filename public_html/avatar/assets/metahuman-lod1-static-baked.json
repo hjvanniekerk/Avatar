@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "actor": "BP_Lilly",
+  "actor_class": "BP_Lilly_C",
+  "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-lod1-static-baked.glb",
+  "bytes": 781720,
+  "default_level_of_detail": 1,
+  "bake_material_inputs": "USE_MESH_DATA",
+  "texture_image_format": "JPEG",
+  "messages": "<Struct 'GLTFExportMessages' (0x0000013D140EE5E0) {suggestions: , warnings: , errors: }>"
+}

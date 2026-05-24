@@ -1,0 +1,34 @@
+{
+  "exports": [
+    {
+      "slug": "outfit-lod1",
+      "asset": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits",
+      "class": "SkeletalMesh",
+      "lod": 1,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-lod1.glb",
+      "bytes": 1328508,
+      "messages": "<Struct 'GLTFExportMessages' (0x00000113A922C900) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "slug": "hair-cards-lod1",
+      "asset": "/Game/KhaosMDF322/Examples/Lilly/Grooms/Hair_S_BobLayered_CardsMesh_Group0_LOD1",
+      "class": "StaticMesh",
+      "lod": 0,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-hair-cards-lod1.glb",
+      "bytes": 1337960,
+      "messages": "<Struct 'GLTFExportMessages' (0x00000113A922FB70) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "slug": "hair-helmet-lod5",
+      "asset": "/Game/KhaosMDF322/Examples/Lilly/Grooms/Hair_S_BobLayered_Helmet_LOD5",
+      "class": "StaticMesh",
+      "lod": 0,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-hair-helmet-lod5.glb",
+      "bytes": 46396,
+      "messages": "<Struct 'GLTFExportMessages' (0x00000113A922C660) {suggestions: , warnings: , errors: }>"
+    }
+  ]
+}

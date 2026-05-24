@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-05-20T06:25:00+02:00",
+  "source": {
+    "label": "MetaHuman 5.8 Preview forum workflow reference",
+    "url": "https://forums.unrealengine.com/t/metahuman-5-8-preview-released/2721648/3"
+  },
+  "presenters": [
+    {
+      "id": "rl-best",
+      "name": "RL Best Presenter",
+      "type": "female_presenter",
+      "status": "rl_best_visible",
+      "render": "presenters/rl-best-stage.png",
+      "thumbnail": "presenters/rl-best-thumb.png",
+      "diagnostic_render": "presenters/rl-best-stage.png",
+      "notes": "Promoted from the local RL best candidate so the visible avatar improves while Unreal/MetaHuman fitting remains locked.",
+      "hair_options": ["realistic-ponytail-model", "realtime-female-hair", "metahuman-long-high-ponytail"],
+      "clothing_options": ["marilla-top-metahumans", "swimsuit-black", "khaos-default-outfit"]
+    }
+  ],
+  "hair_options": [
+    {
+      "id": "metahuman-long-high-ponytail",
+      "name": "MetaHuman Long High Ponytail",
+      "status": "install_queued",
+      "asset": "Epic/Fab queue",
+      "presenter_hint": "MetaHuman"
+    },
+    {
+      "id": "realtime-female-hair",
+      "name": "Female Hairstyle / Hair",
+      "status": "browser_fit_verified",
+      "asset": "C:/ProgramData/Epic/EpicGamesLauncher/VaultCache/FabLibrary/Female_Hairstyle___Hair_-_Realtime_Game_Ready-b64ca4bc",
+      "presenter_hint": "Generic female"
+    },
+    {
+      "id": "realistic-ponytail-model",
+      "name": "Realistic Ponytail Model",
+      "status": "vault_downloaded",
+      "asset": "C:/ProgramData/Epic/EpicGamesLauncher/VaultCache/FabLibrary/Game-Ready_3D_Female_Hair_Realistic_Ponytail_Model-ac54b08b",
+      "presenter_hint": "Generic female"
+    }
+  ],
+  "clothing_options": [
+    {
+      "id": "swimsuit-black",
+      "name": "Swimsuit Black",
+      "status": "unfitted_disabled",
+      "disabled": true,
+      "fit_status": "downloaded_not_fitted_to_runtime_glb",
+      "thumbnail": "presenters/clothing/swimsuit-black.jpeg",
+      "asset": "C:/ProgramData/Epic/EpicGamesLauncher/VaultCache/FabLibrary/Swimsuit_Black-cbd7d74e/fbx/swimsuit-black_extracted/source/Swimsuit_01.fbx",
+      "textures": "C:/ProgramData/Epic/EpicGamesLauncher/VaultCache/FabLibrary/Swimsuit_Black-cbd7d74e/fbx/swimsuit-black_extracted/textures",
+      "presenter_hint": "Female presenter"
+    },
+    {
+      "id": "khaos-default-outfit",
+      "name": "Khaos Default Outfit",
+      "status": "assigned_in_unreal",
+      "asset": "Khaos example default outfit",
+      "presenter_hint": "Female presenter"
+    },
+    {
+      "id": "marilla-top-metahumans",
+      "name": "Marilla Top",
+      "status": "active_browser_fit_verified",
+      "asset": "C:/ProgramData/Epic/EpicGamesLauncher/VaultCache/FabLibrary/The_Marilla_Top_for_MetaHumans_-_Parametric_Outfit-dc6a2e50",
+      "presenter_hint": "MetaHumans"
+    }
+  ],
+  "face_options": [
+    {
+      "id": "rl-best-face",
+      "name": "RL Best Face",
+      "status": "active"
+    },
+    {
+      "id": "metahuman-neutral",
+      "name": "MetaHuman Neutral",
+      "status": "unreal_target"
+    },
+    {
+      "id": "broadcast-warm",
+      "name": "Broadcast Warm",
+      "status": "rl_expression"
+    }
+  ],
+  "body_options": [
+    {
+      "id": "broadcast-natural",
+      "name": "Broadcast Natural",
+      "status": "active"
+    },
+    {
+      "id": "metahuman-idle",
+      "name": "MetaHuman Idle",
+      "status": "unreal_target"
+    },
+    {
+      "id": "studio-presenter",
+      "name": "Studio Presenter",
+      "status": "rl_pose"
+    }
+  ],
+  "shoe_options": [
+    {
+      "id": "black-heels",
+      "name": "Black Heels",
+      "status": "selected"
+    },
+    {
+      "id": "studio-flats",
+      "name": "Studio Flats",
+      "status": "available"
+    },
+    {
+      "id": "neutral-boots",
+      "name": "Neutral Boots",
+      "status": "available"
+    }
+  ]
+}

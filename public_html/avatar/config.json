@@ -1,0 +1,54 @@
+{
+  "cx": 188.13185119628906,
+  "cy": 294.7383728027344,
+  "AA": {
+    "rx": 33.299442291259766,
+    "ry": 10.109870910644531
+  },
+  "EE": {
+    "rx": 35.344547271728516,
+    "ry": 9.370790481567383
+  },
+  "OO": {
+    "rx": 16.16274642944336,
+    "ry": 7.295964241027832
+  },
+  "MM": {
+    "rx": 13.499385833740234,
+    "ry": 5.800323963165283
+  },
+  "amp_rx": 6.615419864654541,
+  "amp_ry": 3.285038471221924,
+  "shape_timer": 7,
+  "ring_amp_factor": 5.5367584228515625,
+  "photo_pulse_factor": 0.08031263202428818,
+  "lip_opacity": 0.5,
+  "teeth_threshold": 0.17906393110752106,
+  "teeth_alpha": 0.8160292506217957,
+  "fill": "#3a0e15",
+  "stroke": "#1a0710",
+  "tts_rate": 1.5,
+  "tts_pitch": 0.738832950592041,
+  "motion_locked": true,
+  "hair_speed": 0.000001,
+  "hair_amp": 0.000001,
+  "hair_translate_amp": 0.000001,
+  "head_sway_amp": 0.000001,
+  "head_sway_speed": 0.000001,
+  "head_bob_amp": 0.000001,
+  "blink_period_ms": 999999999,
+  "blink_jitter_ms": 1,
+  "blink_duration_ms": 1,
+  "frame_smooth": 0.000001,
+  "frame_amp_gain": 0.000001,
+  "frame_ms": 999999999,
+  "use_frames": 1,
+  "body_sway_amp": 0.000001,
+  "body_sway_speed": 0.000001,
+  "torso_bob_amp": 0.000001,
+  "hand_amp": 0.000001,
+  "hand_speed": 0.000001,
+  "hand_emerge": 1,
+  "show_hands": 0,
+  "brow_amp": 0.000001
+}

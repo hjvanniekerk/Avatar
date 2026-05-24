@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "asset": "/Game/KhaosMDF322/Examples/Lilly/Body/SKM_Lilly_BodyMesh",
+  "exports": [
+    {
+      "lod": 0,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-body-lod0.glb",
+      "bytes": 1848348,
+      "messages": "<Struct 'GLTFExportMessages' (0x000001B3017DE1F0) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 1,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-body-lod1.glb",
+      "bytes": 488996,
+      "messages": "<Struct 'GLTFExportMessages' (0x000001B3017DE460) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 2,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-body-lod2.glb",
+      "bytes": 227444,
+      "messages": "<Struct 'GLTFExportMessages' (0x000001B3017DEC40) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 3,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-body-lod3.glb",
+      "bytes": 72204,
+      "messages": "<Struct 'GLTFExportMessages' (0x000001B3017DB820) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 4,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-body-lod4.glb",
+      "bytes": 72204,
+      "messages": "<Struct 'GLTFExportMessages' (0x000001B3017DDEF0) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 5,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-body-lod5.glb",
+      "bytes": 72204,
+      "messages": "<Struct 'GLTFExportMessages' (0x000001B3017DEC40) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 6,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-body-lod6.glb",
+      "bytes": 72204,
+      "messages": "<Struct 'GLTFExportMessages' (0x000001B3017DE820) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 7,
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-body-lod7.glb",
+      "bytes": 72204,
+      "messages": "<Struct 'GLTFExportMessages' (0x000001B3017DCF90) {suggestions: , warnings: , errors: }>"
+    }
+  ]
+}

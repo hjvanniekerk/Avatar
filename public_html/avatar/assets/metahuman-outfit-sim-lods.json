@@ -1,0 +1,69 @@
+{
+  "asset": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits_SimMesh",
+  "exports": [
+    {
+      "lod": 0,
+      "asset": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits_SimMesh",
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-sim-lod0.glb",
+      "bytes": 466556,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000017D449ED5F0) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 1,
+      "asset": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits_SimMesh",
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-sim-lod1.glb",
+      "bytes": 466556,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000017D449ED9B0) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 2,
+      "asset": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits_SimMesh",
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-sim-lod2.glb",
+      "bytes": 466556,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000017D449EDAD0) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 3,
+      "asset": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits_SimMesh",
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-sim-lod3.glb",
+      "bytes": 466556,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000017D449ED590) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 4,
+      "asset": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits_SimMesh",
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-sim-lod4.glb",
+      "bytes": 466556,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000017D449EDBC0) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 5,
+      "asset": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits_SimMesh",
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-sim-lod5.glb",
+      "bytes": 466556,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000017D449EDD40) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 6,
+      "asset": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits_SimMesh",
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-sim-lod6.glb",
+      "bytes": 466556,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000017D449EFCF0) {suggestions: , warnings: , errors: }>"
+    },
+    {
+      "lod": 7,
+      "asset": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits_SimMesh",
+      "ok": true,
+      "glb": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\assets\\metahuman-outfit-sim-lod7.glb",
+      "bytes": 466556,
+      "messages": "<Struct 'GLTFExportMessages' (0x0000017D449ED830) {suggestions: , warnings: , errors: }>"
+    }
+  ]
+}

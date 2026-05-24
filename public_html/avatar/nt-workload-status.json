@@ -1,0 +1,93 @@
+{
+  "ok": true,
+  "active": false,
+  "running": false,
+  "mode": "nt-workload-pump",
+  "protocol": "NT-WORK/1",
+  "pid": 34004,
+  "started_at": "2026-05-18T01:07:52+00:00",
+  "updated_at": "2026-05-21T05:06:39+00:00",
+  "endpoint": "http://100.106.75.76:1234/v1/chat/completions",
+  "model": "nvidia/nemotron-3-nano-omni",
+  "lanes_configured": 4,
+  "lanes_connected": 1,
+  "total_cycles": 7442,
+  "total_ok": 7280,
+  "tasks": [
+    "frame_gate",
+    "optimizer_policy",
+    "gpu_training",
+    "glnk_backlog"
+  ],
+  "last_directive": {
+    "updated_at": "2026-05-20T21:18:46+00:00",
+    "lane": 3,
+    "task": "gpu_training",
+    "publish": false,
+    "min_delta": 3,
+    "focus": [
+      "lighting",
+      "hands",
+      "borders",
+      "motion",
+      "hair",
+      "face"
+    ],
+    "reason": "Network stability and frame count drive reward; improving lighting and reducing artifacts will raise score toward 90."
+  },
+  "lanes": {
+    "1": {
+      "ok": false,
+      "updated_at": "2026-05-18T01:48:25+00:00",
+      "task": "glnk_backlog",
+      "seq": 58,
+      "latency_seconds": null,
+      "action": null,
+      "critic": null,
+      "priority": null,
+      "usage": null
+    },
+    "2": {
+      "ok": false,
+      "updated_at": "2026-05-18T01:34:33+00:00",
+      "task": "optimizer_policy",
+      "seq": 31,
+      "latency_seconds": null,
+      "action": null,
+      "critic": null,
+      "priority": null,
+      "usage": null
+    },
+    "3": {
+      "ok": true,
+      "updated_at": "2026-05-21T05:06:35+00:00",
+      "task": "optimizer_policy",
+      "seq": 7350,
+      "latency_seconds": 42.417,
+      "action": null,
+      "critic": null,
+      "priority": null,
+      "usage": {
+        "prompt_tokens": 6024,
+        "completion_tokens": 214,
+        "total_tokens": 6238,
+        "completion_tokens_details": {
+          "reasoning_tokens": 176
+        }
+      }
+    },
+    "4": {
+      "ok": false,
+      "updated_at": "2026-05-18T01:12:34+00:00",
+      "task": "glnk_backlog",
+      "seq": 3,
+      "latency_seconds": null,
+      "action": null,
+      "critic": null,
+      "priority": null,
+      "usage": null
+    }
+  },
+  "stop_file": "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL\\nt_workload_pump.stop",
+  "stopped_at": "2026-05-21T05:06:39+00:00"
+}

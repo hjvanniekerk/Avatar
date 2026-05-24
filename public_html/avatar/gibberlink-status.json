@@ -1,0 +1,94 @@
+{
+  "ok": true,
+  "active": false,
+  "running": false,
+  "mode": "gibberlink-nt-multiconnect",
+  "protocol": "GLNK/1",
+  "transport": "text-over-http",
+  "acoustic_ggwave": false,
+  "acoustic_note": "GGWave/GibberLink is acoustic; NT here is LM Studio HTTP, so GLNK/1 uses compact text frames.",
+  "pid": 25788,
+  "started_at": "2026-05-18T06:05:17+00:00",
+  "updated_at": "2026-05-18T11:01:26+00:00",
+  "endpoint": "http://100.106.75.76:1234/v1/chat/completions",
+  "model": "nvidia/nemotron-3-nano-omni",
+  "lanes_configured": 3,
+  "lanes_connected": 1,
+  "total_cycles": 326,
+  "total_ok": 231,
+  "last_nt_label_time": "2026-05-18T11:01:24+00:00",
+  "last_ack": {
+    "ts": "2026-05-18T11:01:24+00:00",
+    "lane": 1,
+    "seq": 238,
+    "ack": true,
+    "lessons": [
+      "Check lane connectivity; resolve URLError failures in lanes 1 and 2",
+      "Ensure at least 240 frames per run to meet min_frames requirement",
+      "Raise score above 90 by improving lighting and reducing cutout artifacts"
+    ],
+    "next_action": "investigate lane 1/2 network errors and increase frame count"
+  },
+  "lanes": {
+    "1": {
+      "updated_at": "2026-05-18T11:01:24+00:00",
+      "ok": true,
+      "seq": 238,
+      "latency_seconds": 38.528,
+      "ack": true,
+      "priority": "high",
+      "lessons": [
+        "Check lane connectivity; resolve URLError failures in lanes 1 and 2",
+        "Ensure at least 240 frames per run to meet min_frames requirement",
+        "Raise score above 90 by improving lighting and reducing cutout artifacts"
+      ],
+      "reward_hint": "network stability and frame count drive reward",
+      "next_action": "investigate lane 1/2 network errors and increase frame count",
+      "usage": {
+        "prompt_tokens": 878,
+        "completion_tokens": 505,
+        "total_tokens": 1383,
+        "completion_tokens_details": {
+          "reasoning_tokens": 379
+        }
+      },
+      "reasoning_content_present": true,
+      "last_ok_epoch": 1779102084.5551817
+    },
+    "2": {
+      "updated_at": "2026-05-18T06:10:23+00:00",
+      "ok": true,
+      "seq": 3,
+      "latency_seconds": 82.868,
+      "ack": true,
+      "priority": "high",
+      "lessons": [
+        "Render realism OK",
+        "Static pose limitation",
+        "Lane timeout risk"
+      ],
+      "reward_hint": "Boost score to 90, meet frame and lighting requirements",
+      "next_action": "retry_failed_lanes",
+      "usage": {
+        "prompt_tokens": 851,
+        "completion_tokens": 639,
+        "total_tokens": 1490,
+        "completion_tokens_details": {
+          "reasoning_tokens": 547
+        }
+      },
+      "reasoning_content_present": true,
+      "last_ok_epoch": 1779084623.2059312
+    },
+    "3": {
+      "updated_at": "2026-05-18T08:09:43+00:00",
+      "ok": false,
+      "seq": 85,
+      "error": "RuntimeError: empty NT response"
+    }
+  },
+  "stop_file": "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL\\gibberlink_multiconnect.stop",
+  "public_status": "C:\\Users\\hjvan\\OneDrive\\_Codex\\Avatar\\public_html\\avatar\\gibberlink-status.json",
+  "events_jsonl": "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL\\gibberlink_multiconnect_events.jsonl",
+  "stopped_at": "2026-05-18T11:01:26+00:00"
+}

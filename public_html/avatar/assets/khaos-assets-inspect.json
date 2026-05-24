@@ -1,0 +1,68 @@
+{
+  "assets": [
+    {
+      "path": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits",
+      "loaded": true,
+      "class": "SkeletalMesh",
+      "asset_class": "SkeletalMesh",
+      "skeletal_mesh": "",
+      "static_mesh": ""
+    },
+    {
+      "path": "/Game/KhaosMDF322/Examples/Lilly/Clothing/Lilly_Outfits_SimMesh",
+      "loaded": true,
+      "class": "SkeletalMesh",
+      "asset_class": "SkeletalMesh",
+      "skeletal_mesh": "",
+      "static_mesh": ""
+    },
+    {
+      "path": "/Game/KhaosMDF322/Examples/Lilly/Clothing/CA_Lilly_Outfits",
+      "loaded": true,
+      "class": "ChaosClothAsset",
+      "asset_class": "ChaosClothAsset",
+      "skeletal_mesh": "",
+      "static_mesh": ""
+    },
+    {
+      "path": "/Game/KhaosMDF322/Examples/Lilly/Clothing/DF_Lilly_Outfits",
+      "loaded": true,
+      "class": "Dataflow",
+      "asset_class": "Dataflow",
+      "skeletal_mesh": "",
+      "static_mesh": ""
+    },
+    {
+      "path": "/Game/KhaosMDF322/ClothSim/BodyShapes/SK_KhaosMDF322S_Size6_CombinedSkelMesh",
+      "loaded": true,
+      "class": "SkeletalMesh",
+      "asset_class": "SkeletalMesh",
+      "skeletal_mesh": "",
+      "static_mesh": ""
+    },
+    {
+      "path": "/Game/KhaosMDF322/Examples/Lilly/Grooms/Hair_S_BobLayered_CardsMesh_Group0_LOD1",
+      "loaded": true,
+      "class": "StaticMesh",
+      "asset_class": "StaticMesh",
+      "skeletal_mesh": "",
+      "static_mesh": ""
+    },
+    {
+      "path": "/Game/KhaosMDF322/Examples/Lilly/Grooms/Hair_S_BobLayered_CardsMesh_Group0_LOD3",
+      "loaded": true,
+      "class": "StaticMesh",
+      "asset_class": "StaticMesh",
+      "skeletal_mesh": "",
+      "static_mesh": ""
+    },
+    {
+      "path": "/Game/KhaosMDF322/Examples/Lilly/Grooms/Hair_S_BobLayered_Helmet_LOD5",
+      "loaded": true,
+      "class": "StaticMesh",
+      "asset_class": "StaticMesh",
+      "skeletal_mesh": "",
+      "static_mesh": ""
+    }
+  ]
+}

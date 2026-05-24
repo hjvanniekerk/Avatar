@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "browser_render_verified": true,
+  "build": "20260521-092357",
+  "source": "Unreal/Khaos BP_Lilly MetaHuman LOD1 body/face plus real Fab long black ponytail mesh and exported MetaHuman top",
+  "geometry": {
+    "body_face": "metahuman-lod1-static-clean.glb",
+    "hair": {
+      "asset": "Game-Ready 3D Female Hair Realistic Ponytail Model",
+      "source": "C:/ProgramData/Epic/EpicGamesLauncher/VaultCache/FabLibrary/Game-Ready_3D_Female_Hair_Realistic_Ponytail_Model-ac54b08b/obj/obj_file_extracted/obj file/obj file.obj",
+      "converted_glb": "fab-long-black-ponytail.glb",
+      "groups": ["Hair", "Scalp"],
+      "color": "black"
+    },
+    "outfit": {
+      "asset": "The Marilla Top for MetaHumans - Parametric Outfit",
+      "source_glb": "metahuman-outfit-lod1-clean.glb",
+      "status": "active_browser_fit_verified"
+    }
+  },
+  "textures": [
+    "textures/body_bc.png",
+    "textures/body_n.png",
+    "textures/head_lod1_bc.png",
+    "textures/head_lod1_n.png",
+    "textures/eye_l_bc.png",
+    "textures/eye_r_bc.png",
+    "textures/teeth_bc.png"
+  ],
+  "notes": [
+    "No 2D proxy, no placeholder mesh, no procedural JS avatar.",
+    "The visible hair is the real Fab ponytail OBJ converted into GLB and merged into the browser mesh.",
+    "Pose buttons load generated GLB pose variants made from the same deployed real mesh vertices.",
+    "Camera panes support direct mouse left-drag orbit rotation, mousewheel zoom, and double-click reset on the real GLB.",
+    "Camera 02 is a Sheena Parveen reference video feed; Camera 01 now loads metahuman-sheena-match.glb: the same real MetaHuman body/face/hair GLB recolored to warm brown hair and rust-orange presenter wardrobe, with a real GLB dress-extension mesh added for source-presenter likeness.",
+    "Camera 02 now draws a live MediaPipe source-joint overlay from assets/sheena-reference-joints.json so Cam 01 motion can be compared against the presenter reference movement.",
+    "Camera 01 now draws an avatar-joint analysis overlay using model-viewer hotspots projected over the real GLB, so the target mesh pose can be compared with the Cam 02 source joints.",
+    "In the normal sidebar UI, the Camera 01 joint overlay uses the same CSS transform as the real model-viewer element so projected joints stay aligned with the shifted GLB camera feed.",
+    "Camera 01 avatar joints are strict DOM hotspot projections over the real GLB; fallback 2D skeleton points are disabled so misprojected placeholders are never drawn.",
+    "The Camera 01 joint canvas is synchronized to the model-viewer transform every draw and is repainted from actual hotspot DOM positions after layout so every rendered frame stays attached to the visible GLB.",
+    "Lower-body Camera 01 avatar anchors were recalibrated from model-viewer surface picks on the real GLB so hips, knees, ankles, and feet no longer hang below the avatar mesh.",
+    "Camera 01 avatar joints are rebuilt every frame from model-viewer positionAndNormalFromPoint surface hits on the visible real GLB; the overlay no longer uses fixed hotspot coordinates for anatomical placement.",
+    "Camera 01 uses real model-viewer orientation/camera motion to mimic the reference timeline without blanking the mesh.",
+    "Current browser GLB is marked below cinematic VFX photoreal quality until face, eye, hairline, groom, and material gates pass.",
+    "The old Khaos bob hair component is not included in this build.",
+    "The shipped GLB is browser-validated through Chromium model-viewer before deploy.",
+    "LOD0 was rejected because the Unreal GLB exporter emitted invalid index data for browser viewers; LOD1 is the first browser-valid MetaHuman mesh export."
+  ]
+}

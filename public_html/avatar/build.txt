@@ -1,0 +1,5 @@
+timestamp: 2026-05-24T23:58:11+02:00
+visual_build_version: 20260524-235811
+cache_version: nemotron-avatar-v210-20260524-235811
+changed_files: index.html, app.js, style.css, sw.js, build.txt, continuous_browser_rl.py, continuous_browser_rl_playwright.py, .gitignore
+notes: clean default avatar studio layout, hidden diagnostics by default, network-first HTML/CSS/JS/build cache policy, neutral normal pose with textured morph GLB fallback, RL policy reason fields

@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-05-20T21:18:46+00:00",
+  "lane": 3,
+  "task": "gpu_training",
+  "publish": false,
+  "min_delta": 3,
+  "focus": [
+    "lighting",
+    "hands",
+    "borders",
+    "motion",
+    "hair",
+    "face"
+  ],
+  "reason": "Network stability and frame count drive reward; improving lighting and reducing artifacts will raise score toward 90."
+}

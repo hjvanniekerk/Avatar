@@ -1,0 +1,43 @@
+{
+    "score":  45,
+    "iter":  1,
+    "frames_verified":  1,
+    "gen":  1779028308,
+    "best_score":  45,
+    "worst_score":  45,
+    "face":  15,
+    "body":  15,
+    "hair":  0,
+    "motion":  0,
+    "lighting":  10,
+    "artifacts":  20,
+    "audio":  0,
+    "ts":  "2026-05-17T14:31:48+00:00",
+    "comment":  "Nemotron rejected latest Unreal static preview: score 450/1000. Failures: low-poly geometry, flat shading, missing textures, bald head, unrealistic lighting, static pose. Motion remains stopped until the MetaHuman groom/material render is fixed and 240 frames score 900+.",
+    "mode":  "unreal-nemotron-frame-rl",
+    "motion_approved":  false,
+    "approval_min_frames":  240,
+    "approval_min_score":  90,
+    "approval_metric_keys":  [
+                                 "score",
+                                 "face",
+                                 "body",
+                                 "hair",
+                                 "motion",
+                                 "lighting",
+                                 "artifacts"
+                             ],
+    "approval_failures":  [
+                              "nemotron_rejected_frame",
+                              "missing_hair_groom",
+                              "clay_or_missing_materials",
+                              "static_pose_no_motion",
+                              "below_90_realism",
+                              "below_240_verified_frames"
+                          ],
+    "evaluator_failures":  0,
+    "frames_below_approval":  1,
+    "frame_dir":  "D:\\Avatar\\UnrealTalkingHead\\Saved\\RealismRL\\khaos_preview",
+    "worst_frame":  "rl-frame.png",
+    "best_frame":  "rl-frame.png"
+}

@@ -1,0 +1,129 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no" />
+  <meta name="theme-color" content="#07090f" />
+  <title>Nemotron Avatar</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon-192.png" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <link rel="stylesheet" href="style.css?v=20260524-235811" />
+</head>
+<body data-build="20260524-235811">
+  <main id="app">
+    <div id="phone-statusbar" aria-hidden="true">
+      <span class="left" id="phone-clock">--:--</span>
+      <span class="right"><span>5G</span><span>&#9679;&#9679;&#9679;&#9679;&#9679;</span><span>&#128267;</span></span>
+    </div>
+    <section id="avatar-stage" aria-label="Avatar">
+      <div id="avatar" aria-hidden="true"></div>
+      <button id="newchat-btn" type="button" title="Clear chat" aria-label="Clear chat">Clear</button>
+      <button id="refresh-btn" type="button" title="Refresh app" aria-label="Refresh app">&#x21BB;</button>
+      <button id="mute-btn" type="button" title="Mute / unmute voice" aria-label="Mute or unmute voice">Voice</button>
+      <button id="fs-btn" type="button" title="Toggle fullscreen" aria-label="Toggle fullscreen">Full</button>
+      <button id="settings-btn" type="button" title="Settings" aria-label="Open settings">Set</button>
+      <div id="status" aria-live="polite">idle</div>
+      <div id="realism-tag" aria-live="polite">realism --/1000</div>
+    </section>
+
+    <section id="chat" aria-label="Chat">
+      <div id="transcript" role="log" aria-live="polite"></div>
+      <form id="composer" autocomplete="off">
+        <button id="mic" type="button" title="Speak" aria-label="Speak">&#127908;</button>
+        <input id="input" type="text" placeholder="Talk to Nemotron..." autocomplete="off" autocapitalize="sentences" />
+        <button id="send" type="submit" aria-label="Send">Send</button>
+      </form>
+    </section>
+
+    <dialog id="settings">
+      <form method="dialog">
+        <h2>Settings</h2>
+        <label>Endpoint
+          <input id="cfg-endpoint" type="url" />
+        </label>
+        <label>Model
+          <input id="cfg-model" type="text" />
+        </label>
+        <label>System prompt
+          <textarea id="cfg-system" rows="3"></textarea>
+        </label>
+        <label class="row">
+          <input id="cfg-tts" type="checkbox" /> Speak replies (TTS)
+        </label>
+        <label>Voice
+          <select id="cfg-voice"></select>
+        </label>
+        <menu>
+          <button value="cancel">Cancel</button>
+          <button id="cfg-save" value="save">Save</button>
+        </menu>
+      </form>
+    </dialog>
+  </main>
+  <script>
+    (function(){
+    var build = "20260524-235811";
+      try {
+        var params = new URLSearchParams(location.search || "");
+        var key = "nemotron-avatar-html-build";
+        if (localStorage.getItem(key) !== build) {
+          localStorage.setItem(key, build);
+          var tasks = [];
+          if ("caches" in window) {
+            tasks.push(caches.keys().then(function(keys){
+              return Promise.all(keys.filter(function(k){
+                return /^nemotron-avatar-/.test(k);
+              }).map(function(k){ return caches.delete(k); }));
+            }).catch(function(){}));
+          }
+          if ("serviceWorker" in navigator) {
+            tasks.push(navigator.serviceWorker.getRegistrations().then(function(regs){
+              return Promise.all(regs.map(function(r){ return r.unregister(); }));
+            }).catch(function(){}));
+          }
+          Promise.all(tasks).then(function(){
+            location.reload();
+          }).catch(function(){
+            location.reload();
+          });
+        }
+      } catch (err) {}
+    })();
+  </script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+  <script src="retarget.js?v=20260524-235811" defer></script>
+  <script src="ik.js?v=20260524-235811" defer></script>
+  <script src="skeletal-solver.js?v=20260524-235811" defer></script>
+  <script src="app.js?v=20260524-235811" defer></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "level": "/Game/KhaosMDF322/Maps/Examples",
+  "actor": "BP_Lilly",
+  "actor_class": "BP_Lilly_C",
+  "components": [
+    {
+      "name": "Outfits",
+      "class": "ChaosClothComponent",
+      "visible": true,
+      "hidden_in_game": false,
+      "assets": {}
+    },
+    {
+      "name": "Beard",
+      "class": "GroomComponent",
+      "visible": true,
+      "hidden_in_game": false,
+      "assets": {}
+    },
+    {
+      "name": "Eyebrows",
+      "class": "GroomComponent",
+      "visible": true,
+      "hidden_in_game": false,
+      "assets": {
+        "groom_asset": "/Game/KhaosMDF322/Examples/Lilly/Grooms/Eyebrows_M_Natural.Eyebrows_M_Natural",
+        "binding_asset": "/Game/KhaosMDF322/Examples/Lilly/Grooms/Eyebrows_M_Natural_Binding.Eyebrows_M_Natural_Binding"
+      }
+    },
+    {
+      "name": "Eyelashes",
+      "class": "GroomComponent",
+      "visible": true,
+      "hidden_in_game": false,
+      "assets": {
+        "groom_asset": "/Game/KhaosMDF322/Examples/Lilly/Grooms/Eyelashes_L_SlightCurl.Eyelashes_L_SlightCurl",
+        "binding_asset": "/Game/KhaosMDF322/Examples/Lilly/Grooms/Eyelashes_L_SlightCurl_Binding.Eyelashes_L_SlightCurl_Binding"
+      }
+    },
+    {
+      "name": "Fuzz",
+      "class": "GroomComponent",
+      "visible": true,
+      "hidden_in_game": false,
+      "assets": {}
+    },
+    {
+      "name": "Hair",
+      "class": "GroomComponent",
+      "visible": true,
+      "hidden_in_game": false,
+      "assets": {
+        "groom_asset": "/Game/KhaosMDF322/Examples/Lilly/Grooms/Hair_S_BobLayered.Hair_S_BobLayered",
+        "binding_asset": "/Game/KhaosMDF322/Examples/Lilly/Grooms/Hair_S_BobLayered_Binding.Hair_S_BobLayered_Binding"
+      }
+    },
+    {
+      "name": "Mustache",
+      "class": "GroomComponent",
+      "visible": true,
+      "hidden_in_game": false,
+      "assets": {}
+    },
+    {
+      "name": "Face",
+      "class": "SkeletalMeshComponent",
+      "visible": true,
+      "hidden_in_game": false,
+      "assets": {
+        "skeletal_mesh_asset": "/Game/KhaosMDF322/Examples/Lilly/Face/SKM_Lilly_FaceMesh.SKM_Lilly_FaceMesh",
+        "skeletal_mesh": "/Game/KhaosMDF322/Examples/Lilly/Face/SKM_Lilly_FaceMesh.SKM_Lilly_FaceMesh"
+      }
+    },
+    {
+      "name": "Body",
+      "class": "SkeletalMeshComponent",
+      "visible": true,
+      "hidden_in_game": false,
+      "assets": {
+        "skeletal_mesh_asset": "/Game/KhaosMDF322/Examples/Lilly/Body/SKM_Lilly_BodyMesh.SKM_Lilly_BodyMesh",
+        "skeletal_mesh": "/Game/KhaosMDF322/Examples/Lilly/Body/SKM_Lilly_BodyMesh.SKM_Lilly_BodyMesh"
+      }
+    }
+  ]
+}
